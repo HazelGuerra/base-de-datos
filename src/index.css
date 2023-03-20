@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Merriweather+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +22,58 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+nav {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  background-color: #B2C2FF;
+  font-family: 'Merriweather Sans', sans-serif;
+  border-radius:  0 0 20px  20px;
+
+  
+}
+
+h1{
+  font-size: 2rem;
+  margin: 10px 0 0 10px;
+}
+
+input{
+  margin: 10px;
+  width: 98.5%;
+  
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+label{
+  width: 30%;
+}
+
+h3{
+  display: flex;
+  justify-content: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  margin-top: 10px;
+}
+
+.informacion{
+  width: 60%;
+}
+
+.colab{
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.colab ul{
+  margin-top: 10px;
 }
